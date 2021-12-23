@@ -88,7 +88,7 @@ Section:NewToggle("ToggleText", "ToggleInfo", function(state)
 if state then
      ESP:Toggle = true   
     else
-        ESP:UnToggle = true
+        ESP:UnToggle = false
     end
 end)
     local ESP = loadstring(game:HttpGet("https://kiriot22.com/releases/ESP.lua"))()
